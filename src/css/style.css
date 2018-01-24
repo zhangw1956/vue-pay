@@ -1,0 +1,68 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html,body{
+	overflow: hidden;
+	background-color: rgb(239,239,244);
+}
+@media screen and (max-width:320px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 10px
+	}
+}
+
+@media screen and (min-width:320px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 12px
+	}
+}
+
+@media screen and (min-width:375px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 14px
+	}
+}
+
+@media screen and (min-width:414px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 16px
+	}
+}
+.slide-left-enter-active, .slide-left-leave-active {
+	transition: transform .5s;
+	transform-origin: left;
+}
+.slide-left-enter, .slide-left-leave-active {
+  	transform: scale(0,1);
+}
+	
+.jxd-content{
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
